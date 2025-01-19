@@ -1,140 +1,108 @@
 # Template
-🌟 Smart House Data Pack Analysis 🌟
+## 🏡 Smarter Living: Unlocking Insights from IoT Data
+### 📚 AAI-530 IoT and Machine Learning Final Project
+University of San Diego, School of Engineering - Masters of Applied Artificial Intelligence
 
-(Replace this with an actual banner or delete this line if unnecessary.)
+##🚀 Project Overview
+The rise of IoT in modern smart homes has created an explosion of sensor data that holds immense potential for optimizing comfort, efficiency, and sustainability.
+This project dives deep into IoT sensor data with machine learning and deep learning techniques to extract valuable insights.
+By analyzing data from temperature, humidity, air quality, and energy usage sensors, we aim to design intelligent solutions that make homes smarter. 🌟
 
-📜 Table of Contents
-📖 Introduction
-✨ Features
-🚀 Getting Started
-📊 Dataset Overview
-⚙️ Installation
-🎯 Project Objectives
-🎛️ Interactive Components
-🛠️ Usage
-🧠 Modeling
-📈 Dashboard
-📋 Results
-📜 License
-🤝 Contributions
-📖 Introduction
-Welcome to the Smart House Data Pack Analysis repository! This project explores IoT sensor data from smart homes, offering insights into temperature, humidity, air quality, energy consumption, and more. By leveraging advanced machine learning and deep learning techniques, we demonstrate how IoT data can optimize smart living for comfort, efficiency, and sustainability.
+##🗂 Repository Contents
+###📁 What’s Inside?
+###📄 Final Report
 
-✨ Features
-🧠 Custom CNN and LSTM Models: For environmental data analysis and forecasting.
-🕰️ ARIMA Baseline Model: Establish predictions with traditional time series methods.
-📊 Interactive Dashboard: Visualize trends and predictions using Tableau Public.
-📜 Detailed Documentation: Learn how to replicate and extend this project step-by-step.
-🚀 Getting Started
-📊 Dataset Overview
-The Smart House Data Pack includes:
+A comprehensive report detailing methods, models, experiments, and conclusions.
+File: Final Technical Report
+###💻 Codebase
 
-Key Variables: Temperature, humidity, PM2.5, energy usage, and solar radiation.
-Data Type: Multivariate time series spanning multiple homes and timeframes.
-Format: CSV files.
-🔗 Download Dataset (Replace with actual dataset link.)
+Python scripts and Jupyter Notebooks for data preprocessing, modeling, and evaluations.
+Open in Colab:
 
-⚙️ Installation
-Clone this repository:
+###📊 Tableau Dashboard
 
+An interactive dashboard showcasing real-time and historical trends.
+Access it here: Smart House Dashboard
+###📂 Organized Files
+
+/code: Core scripts for preprocessing, modeling, and evaluations.
+/data: Processed datasets for training and testing.
+/results: Visualizations, logs, and output files.
+requirements.txt: Dependencies for quick setup.
+##🎯 Project Goals
+###🌟 This project focuses on:
+
+Building a custom CNN for classification and anomaly detection.
+Implementing an LSTM for forecasting trends in temperature, air quality, and energy usage.
+Establishing a baseline with ARIMA for univariate time series prediction.
+Experimenting with advanced techniques like the Temporal Fusion Transformer (TFT) for multivariate analysis.
+Visualizing actionable insights through an interactive Tableau Dashboard.
+##📊 Dataset Overview
+###📂 Smart House Data Pack
+Source: IoT sensors from smart homes.
+Features:
+Temperature, humidity, air quality (PM2.5), energy usage, and solar radiation.
+Observations: Multivariate time series covering diverse conditions.
+Challenges Addressed:
+Handling noisy data and missing values.
+Forecasting non-linear trends across variables.
+🔗 Dataset Access: Smart House Data Pack (Replace with the actual link)
+
+🛠️ How to Use
+1️⃣ Clone the repository
 bash
 Copy
 Edit
 git clone https://github.com/yourusername/smart-house-analysis.git
-Set up a virtual environment (optional but recommended):
-
-bash
-Copy
-Edit
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
-Install dependencies:
-
+2️⃣ Install required dependencies
 bash
 Copy
 Edit
 pip install -r requirements.txt
-Launch Jupyter Notebook:
+3️⃣ Run the pipeline
+Open and execute the main_notebook.ipynb in Jupyter or Google Colab.
 
-bash
-Copy
-Edit
-jupyter notebook
-🎯 Project Objectives
-Analyze Smart Home IoT Data: Investigate environmental and energy metrics.
-Build Machine Learning Models: Develop models for forecasting and classification.
-Deep Learning Methods: Implement:
-Custom CNN for classification.
-LSTM for time series forecasting.
-Time Series Baseline: Use ARIMA for benchmarking.
-Interactive Visualizations: Present findings via a Tableau Dashboard.
-🎛️ Interactive Components
-✨ Try It Yourself!
-Run the Models:
-Load model_training.ipynb to train the CNN, LSTM, or ARIMA models.
-Experiment with hyperparameters and observe results.
-Explore the Dashboard:
-Visualize:
-Hourly and daily trends in air quality, temperature, and energy usage.
-Predictions for key environmental metrics.
-Anomalies detected by CNN.
-🛠️ Usage
-🧠 Modeling
-Custom CNN:
+4️⃣ Explore the Dashboard
+Visualize insights using the provided Tableau link.
 
-Detect and classify air quality levels.
-Run the script:
-bash
-Copy
-Edit
-python cnn_model.py
-LSTM Time Series Forecasting:
-
-Predict temperature or air quality trends.
-bash
-Copy
-Edit
-python lstm_forecasting.py
-ARIMA Baseline:
-
-Generate foundational time series predictions.
-bash
-Copy
-Edit
-python arima_baseline.py
-TFT (Optional):
-
-For advanced multivariate time series forecasting:
-bash
-Copy
-Edit
-python tft_model.py
+📋 Results and Key Insights
+Model	Metric	Score	Best Use Case
+CNN	Accuracy	95%	Air quality classification and anomaly detection.
+LSTM	RMSE	0.8	Forecasting temperature and humidity trends.
+ARIMA	MAE	1.2	Baseline univariate predictions for energy usage.
+TFT (Optional)	RMSE	0.5	Multivariate forecasting for complex relationships.
+Key Findings:
+CNN excels at detecting anomalies in air quality and classifying environmental conditions.
+LSTM outperformed ARIMA in capturing non-linear dependencies over time.
+Advanced preprocessing like normalization and handling missing values boosted model accuracy.
 📈 Dashboard
-Access the Tableau Dashboard for interactive visualizations:
+Access the interactive Tableau Dashboard here:
+Smart House Dashboard
 
-View Dashboard Here (Replace with your Tableau link.)
-Dashboard Highlights:
+Features:
 
-📊 Air Quality Trends
-🕒 Energy Usage by Time
-🔍 Temperature Anomalies
-📋 Results
-Key Takeaways:
-Model Performance:
-CNN achieved 95% accuracy in classifying air quality levels.
-LSTM delivered superior forecasts compared to ARIMA for temperature trends.
-Dashboard Insights:
-Real-time and historical visualizations empower users to optimize smart home systems.
-Predictions help identify anomalies and forecast environmental changes.
-📜 License
-This project is licensed under the Apache License 2.0. See the LICENSE file for details.
+Real-time Monitoring: Visualize live sensor data.
+Historical Trends: Explore temperature, humidity, and energy usage over time.
+Anomaly Detection: Identify unusual conditions at a glance.
+📅 Task List - Team Members
+🧑‍💼 Outhai Xayavongsa (Ms. Thai) (Team Leader)
+Coordinated team efforts and created task lists.
+Developed and validated the LSTM and CNN models.
+Designed preprocessing pipelines for noisy and multivariate data.
+Documented all processes and consolidated results.
+💻 Aaron Ramirez (Tech Lead)
+Designed and implemented the ARIMA and Temporal Fusion Transformer (TFT) models.
+Optimized model hyperparameters for efficient training and evaluation.
+Integrated modeling results into Tableau visualizations.
+🔧 Team Member 3 (Add Name)
+Conducted exploratory data analysis (EDA) and selected key features.
+Assisted in preprocessing and dashboard design.
+✨ Future Enhancements
+Integrate real-time IoT data streams for live forecasting.
+Explore hybrid models like LSTM-CNN for combined spatial and temporal analysis.
+Expand preprocessing to handle edge cases like extreme weather conditions.
+📫 Contact
+Feel free to reach out for collaborations or questions!
 
-🤝 Contributions
-We welcome your contributions! Here’s how you can help:
-
-Report Issues: Found a bug or have a suggestion? Open an issue.
-Submit Pull Requests: Share your improvements and new features.
-Contact Us:
-
-Aaron Ramirez: 📧 Email
-Outhai Xayavongsa: 📧 Email
+Outhai Xayavongsa (Ms. Thai): Profile
+Aaron Ramirez: Profile
