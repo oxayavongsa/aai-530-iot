@@ -106,3 +106,14 @@ Feel free to reach out for collaborations or questions!
 
 Outhai Xayavongsa (Ms. Thai): Profile
 Aaron Ramirez: Profile
+
+## License Information
+
+This project uses datasets from the [Smart House Data Pack](https://www.kaggle.com/datasets/ssiatuos/smart-house-data-pack), which are licensed under the **Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**. 
+
+Under this license:
+- You are free to share and adapt the datasets as long as you provide proper attribution.
+- Use of the datasets is restricted to non-commercial purposes.
+- Full details of the license can be found [here](https://creativecommons.org/licenses/by-nc/4.0/).
+
+The software in this repository is distributed under the **Apache License 2.0**, which permits commercial use, distribution, modification, and private use, as described in the [LICENSE](LICENSE) file.
