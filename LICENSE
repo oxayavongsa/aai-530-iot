@@ -3,59 +3,63 @@ Version 2.0, January 2004
 http://www.apache.org/licenses/
 
 TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+Definitions
 
-1. Definitions.
+"License": The terms and conditions for use, reproduction, and distribution as outlined in Sections 1 through 9 of this document.
+"Licensor": The copyright owner or authorized entity granting the License.
+"Legal Entity": Includes the acting entity and any related entities under common control.
+"You" (or "Your"): An individual or Legal Entity exercising permissions granted under this License.
+"Source" form: The preferred form for making modifications, such as source code or documentation.
+"Object" form: Any transformed or translated form of the Source form, such as compiled object code or generated documentation.
+"Work": The work of authorship available under this License, as indicated by a copyright notice.
+"Derivative Works": Works derived from the Work that represent original authorship, excluding those linked to the Work's interfaces.
+"Contribution": Any work of authorship intentionally submitted to Licensor for inclusion in the Work.
+"Contributor": Licensor and any entity whose Contribution has been incorporated into the Work.
+Grant of Copyright License
+Each Contributor grants a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works, display, perform, sublicense, and distribute the Work in Source or Object form.
 
-   "License" refers to the terms and conditions for use, reproduction, and distribution as outlined in Sections 1 through 9 of this document.
+Grant of Patent License
+Each Contributor grants a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable patent license for claims necessarily infringed by their Contribution(s).
 
-   "Licensor" refers to the copyright owner or entity authorized by the copyright owner granting the License.
+Redistribution
+You may distribute copies of the Work or Derivative Works under the following conditions:
 
-   "Legal Entity" refers to the union of the acting entity and all other entities that control, are controlled by, or are under common control with that entity. Control includes (i) the power to direct management, (ii) ownership of at least 50% of shares, or (iii) beneficial ownership.
+(a) Include this License with the Work.
+(b) State modifications made to the files.
+(c) Retain all copyright, patent, trademark, and attribution notices.
+(d) Include a NOTICE file if the Work contains one.
+You may add your own copyright and additional terms for your modifications, provided distribution complies with this License.
 
-   "You" (or "Your") refers to an individual or Legal Entity exercising permissions granted by this License.
+Submission of Contributions
+Unless stated otherwise, any submitted Contribution is under this License without additional terms.
 
-   "Source" form refers to the preferred form for making modifications, such as software source code, documentation, or configuration files.
+Trademarks
+This License does not permit the use of Licensor's trade names, trademarks, or service marks unless required for describing the Work's origin.
 
-   "Object" form refers to any form resulting from mechanical transformation or translation of a Source form, including compiled object code, generated documentation, or media conversions.
+Disclaimer of Warranty
+The Work is provided "AS IS" without warranties or conditions of any kind, including merchantability or fitness for a purpose. You assume all risks associated with using the Work.
 
-   "Work" refers to the work of authorship, whether in Source or Object form, made available under the License as indicated by a copyright notice included with the work.
+Limitation of Liability
+Contributors are not liable for damages resulting from the use or inability to use the Work.
 
-   "Derivative Works" refers to works that are based on or derived from the Work, provided they represent original authorship. Derivative Works exclude those separable from or linked to the Work's interfaces.
-
-   "Contribution" refers to any work of authorship intentionally submitted to Licensor for inclusion in the Work by the copyright owner or authorized entity. 
-
-   "Contributor" refers to Licensor and any entity whose Contribution has been incorporated into the Work.
-
-2. Grant of Copyright License. Subject to the terms of this License, each Contributor grants a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works, display, perform, sublicense, and distribute the Work in Source or Object form.
-
-3. Grant of Patent License. Subject to the terms of this License, each Contributor grants a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated) patent license for claims necessarily infringed by their Contribution(s).
-
-4. Redistribution. You may distribute copies of the Work or Derivative Works under the following conditions:
-   (a) Include this License with the Work.
-   (b) State modifications made to the files.
-   (c) Retain all copyright, patent, trademark, and attribution notices.
-   (d) Include a NOTICE file if the Work contains one.
-
-   You may add your own copyright and additional terms for your modifications, provided distribution complies with this License.
-
-5. Submission of Contributions. Unless stated otherwise, any submitted Contribution is under this License without additional terms.
-
-6. Trademarks. This License does not permit the use of Licensor's trade names, trademarks, or service marks unless required for describing the Work's origin.
-
-7. Disclaimer of Warranty. The Work is provided "AS IS" without warranties or conditions of any kind, including merchantability or fitness for a purpose. You assume all risks associated with using the Work.
-
-8. Limitation of Liability. Contributors are not liable for damages resulting from the use or inability to use the Work.
-
-9. Accepting Warranty or Additional Liability. While redistributing the Work, you may offer additional warranties or liability obligations on your own behalf and indemnify Contributors.
+Accepting Warranty or Additional Liability
+While redistributing the Work, you may offer additional warranties or liability obligations on your own behalf and indemnify Contributors.
 
 END OF TERMS AND CONDITIONS
+Dataset Attribution
+This project uses datasets from the Smart House Data Pack, licensed under the Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).
 
-Copyright 2025 Aaron Ramirez and Outhai Xayavongsa
+Terms:
+You may share and adapt the datasets with proper attribution.
+The datasets are restricted to non-commercial use.
+Full license details can be found here.
 
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
+## Copyright 2025 Aaron Ramirez and Outhai Xayavongsa
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License.
 You may obtain a copy of the License at:
 
-    http://www.apache.org/licenses/LICENSE-2.0
+http://www.apache.org/licenses/LICENSE-2.0
 
-Unless required by applicable law or agreed to in writing, the software is distributed under the License on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND. See the License for specific language governing permissions and limitations under the License.
+Unless required by applicable law or agreed to in writing, the software is distributed under the License on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND.
+See the License for specific language governing permissions and limitations under the License.
