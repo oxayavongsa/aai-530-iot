@@ -28,13 +28,13 @@ You may distribute copies of the Work or Derivative Works under the following co
 (b) State modifications made to the files.
 (c) Retain all copyright, patent, trademark, and attribution notices.
 (d) Include a NOTICE file if the Work contains one.
-You may add your own copyright and additional terms for your modifications, provided distribution complies with this License.
+You may add your copyright and additional terms for your modifications, provided distribution complies with this License.
 
 Submission of Contributions
 Unless stated otherwise, any submitted Contribution is under this License without additional terms.
 
 Trademarks
-This License does not permit the use of Licensor's trade names, trademarks, or service marks unless required for describing the Work's origin.
+This License does not permit the use of the Licensor's trade names, trademarks, or service marks unless required for describing the Work's origin.
 
 Disclaimer of Warranty
 The Work is provided "AS IS" without warranties or conditions of any kind, including merchantability or fitness for a purpose. You assume all risks associated with using the Work.
@@ -47,14 +47,14 @@ While redistributing the Work, you may offer additional warranties or liability 
 
 END OF TERMS AND CONDITIONS
 Dataset Attribution
-This project uses datasets from the Smart House Data Pack, licensed under the Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).
+This project uses datasets from the Smart House Data Pack, licensed under Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).
 
 Terms:
 You may share and adapt the datasets with proper attribution.
 The datasets are restricted to non-commercial use.
 Full license details can be found here.
 
-## Copyright 2025 Aaron Ramirez and Outhai Xayavongsa
+**Copyright 2025 Aaron Ramirez and Outhai Xayavongsa**
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License.
 You may obtain a copy of the License at:
