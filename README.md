@@ -91,9 +91,9 @@ To explore the code, open the Jupyter Notebook in Google Colab:
 
 ## Contributors
 
-- Outhai Xayavongsa (Ms. Thai) – Data Science & AI Lead.
+- Outhai Xayavongsa (Ms. Thai) – Team Lead
 
-- Aaron Ramirez – Feature Engineering & Research Lead.
+- Aaron Ramirez – Tech Lead
 
 ## License
 
