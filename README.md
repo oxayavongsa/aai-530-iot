@@ -45,7 +45,7 @@ The interactive dashboard visualizes key findings, including:
 
 - ```Weather Link Indoor Cleaned.csv``` – Indoor environmental sensor data.
 
-- Model predictions:
+- Model predictions
 
 - Model performance metrics
   
