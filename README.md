@@ -24,18 +24,8 @@ Modeling results:
 
 - SARIMAX performed well for short-term forecasts but declined in long-term accuracy.
 
-## Dashboard 
-<div class='tableauPlaceholder' id='viz1739947775986' style='position: relative'><noscript><a href='#'><img alt=' ' src='https://public.tableau.com/static/images/Fi/FinalPredictions/IoTSmartHomeDashboard/1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='FinalPredictions/IoTSmartHomeDashboard' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='static_image' value='https://public.tableau.com/static/images/Fi/FinalPredictions/IoTSmartHomeDashboard/1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>
-<script type='text/javascript'>
-    var divElement = document.getElementById('viz1739947775986');
-    var vizElement = divElement.getElementsByTagName('object')[0];
-    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} 
-    else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} 
-    else { vizElement.style.width='100%';vizElement.style.minHeight='1650px';vizElement.style.maxHeight=(divElement.offsetWidth*1.77)+'px';} 
-    var scriptElement = document.createElement('script');
-    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-    vizElement.parentNode.insertBefore(scriptElement, vizElement);
-</script>
+## Dashboard
+<a href="https://public.tableau.com/views/FinalPredictions/IoTSmartHomeDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" target="_blank">[View Tableau - Smart Home IoT Dashboard]</a>
 
 The interactive dashboard visualizes key findings, including:
 
@@ -45,7 +35,43 @@ The interactive dashboard visualizes key findings, including:
 
 - eCO₂ levels and classification results for different environmental conditions.
 
-## Codebase
+## Data Files
+
+- The dataset contains cleaned IoT sensor data used for modeling and analysis:
+
+- ```EcoLab Ground Cleaned.csv``` – Cleaned dataset from the EcoLab Ground sensor.
+
+- ```Front Door Cleaned.csv``` – Processed data from the Front Door sensor.
+
+- ```Weather Link Indoor Cleaned.csv``` – Indoor environmental sensor data.
+
+- Model predictions:
+
+    - ```cnn_model_predictions_updated.csv```
+
+    - ```lstm_predictions_updated.csv```
+
+    - ```sarimax_predictions_updated.csv```
+
+- Model performance metrics:
+
+    - ```cnn_model_metrics.csv```
+
+    - ```lstm_model_metrics.csv```
+
+    - ```sarimax_model_metrics.csv```
+
+## Trained Models
+
+The following trained models are included:
+
+- ```final_cnn_model.keras``` – Final trained CNN model.
+
+- ```lstm_model_optimized.keras``` – Optimized LSTM model.
+
+## Codebase <a href="https://colab.research.google.com/github/oxayavongsa/aai-530-iot-smart-house/blob/main/Final_Code_G3.ipynb" target="_blank">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"/>
+</a>
 
 The code repository consists of Python scripts and Jupyter Notebooks for:
 
@@ -59,7 +85,7 @@ The code repository consists of Python scripts and Jupyter Notebooks for:
 
 ## Git Ignore & License
 
-- .gitignore specifies ignored files, ensuring version control efficiency.
+```.gitignore``` specifies ignored files, ensuring version control efficiency.
 
 *LICENSE outlines usage rights, adhering to Apache License 2.0 for software and Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) for dataset use.*
 
@@ -108,6 +134,8 @@ The code repository consists of Python scripts and Jupyter Notebooks for:
 
 ## License
 
-The software is licensed under Apache License 2.0.
+- The software is licensed under Apache License 2.0.
+
+- The dataset follows the Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) license.
 
 The dataset follows the Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) license.
