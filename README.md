@@ -106,10 +106,10 @@ To explore the code, open the Jupyter Notebook in Google Colab:
 
 ## Contributors
 
-- Outhai Xayavongsa (Ms. Thai) – Machine Learning & AI Lead.
+- Outhai Xayavongsa (Ms. Thai) – Team Lead
 
-- Aaron Ramirez – Model Optimization & Research Lead.
-
+- Aaron Ramirez – Tech Lead
+  
 ## License
 
 - The software is licensed under Apache License 2.0.
