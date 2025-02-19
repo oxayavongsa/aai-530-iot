@@ -87,7 +87,7 @@ The code repository consists of Python scripts and Jupyter Notebooks for:
 
 ```.gitignore``` specifies ignored files, ensuring version control efficiency.
 
-*LICENSE outlines usage rights, adhering to Apache License 2.0 for software and Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) for dataset use.*
+*```LICENSE``` outlines usage rights, adhering to Apache License 2.0 for software and Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) for dataset use.*
 
 ## How to Use
 
@@ -101,7 +101,7 @@ The code repository consists of Python scripts and Jupyter Notebooks for:
 
 3. Run the Jupyter Notebook:
 
-- Open and execute Final_Code_G3.ipynb in Jupyter or Google Colab.
+- Open and execute ```Final_Code_G3.ipynb``` in Jupyter or Google Colab.
 
 4. Explore results:
 
