@@ -47,19 +47,9 @@ The interactive dashboard visualizes key findings, including:
 
 - Model predictions:
 
-    - ```cnn_model_predictions_updated.csv```
-
-    - ```lstm_predictions_updated.csv```
-
-    - ```sarimax_predictions_updated.csv```
-
-- Model performance metrics:
-
-    - ```cnn_model_metrics.csv```
-
-    - ```lstm_model_metrics.csv```
-
-    - ```sarimax_model_metrics.csv```
+- Model performance metrics
+  
+- Visuals
 
 ## Trained Models
 
