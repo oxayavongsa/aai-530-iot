@@ -1,0 +1,23 @@
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+tensorflow==2.15.0
+keras
+statsmodels
+jupyter
+tabulate
+plotly
+ipykernel
+notebook
+torch
+torchvision
+torchaudio --index-url https://download.pytorch.org/whl/cu124
+pytorch-lightning
+torchmetrics
+pytorch-forecasting
+GPUtil
+psutil
+chardet
+tqdm
