@@ -137,5 +137,3 @@ The code repository consists of Python scripts and Jupyter Notebooks for:
 - The software is licensed under Apache License 2.0.
 
 - The dataset follows the Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) license.
-
-The dataset follows the Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) license.
