@@ -73,6 +73,8 @@ The code repository consists of Python scripts and Jupyter Notebooks for:
 ## Key Findings
 
 - LSTM outperformed traditional time-series models in capturing temperature variations.
+  ![LSTM Model Predictions vs. Actual Indoor Temperture (°F)]([path_to_image.png](https://public.tableau.com/app/profile/outhai.xayavongsa/viz/FinalPredictions/IoTSmartHomeDashboard))
+  ![image](https://github.com/user-attachments/assets/3f4cf25d-9fba-4846-a1cc-cdd1cac0dc8d)
 
 - CNN effectively classified environmental conditions but required better handling of imbalanced classes.
 
