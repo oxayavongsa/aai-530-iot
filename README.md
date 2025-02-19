@@ -1,100 +1,101 @@
-# Sample Template
-## 🏡 Smarter Living: Unlocking Insights from IoT Data
-### 📚 AAI-530 IoT and Machine Learning Final Project
+## Smart Home Energy Predictions: IoT and Machine Learning
+### AAI-530 IoT and Machine Learning Final Project
 University of San Diego, School of Engineering - Masters of Applied Artificial Intelligence
 
-## 🚀 Project Overview
-The rise of IoT in modern smart homes has created an explosion of sensor data that holds immense potential for optimizing comfort, efficiency, and sustainability. This project dives deep into IoT sensor data with machine learning and deep learning techniques to extract valuable insights. By analyzing data from temperature, humidity, air quality, and energy usage sensors, we aim to design intelligent solutions that make homes smarter. 🌟
+## Project Overview
+This project leverages IoT sensor data to develop predictive models and classifications for indoor environmental conditions. Using deep learning techniques, including Long Short-Term Memory (LSTM) networks, Convolutional Neural Networks (CNN), and Seasonal Autoregressive Integrated Moving Average with Exogenous Variables (SARIMAX), the study explores temperature forecasting and anomaly detection in smart home settings.
 
-### 📁 What’s Inside?
-#### 🗂 Repository Contents
-* Data: Processed datasets for training and testing.
-* Code: Python scripts and Jupyter Notebooks for preprocessing, modeling, and evaluations.
-* Results: Visualizations, logs, and output files.
-* README.md: Comprehensive project details.
-* LICENSE: License information.
-* requirements.txt: Dependencies for quick setup.
+## Project Components
+### Final Paper
 
-#### 📄 Final Report
-A detailed report outlining the methods, models, experiments, and conclusions.
-* Final Technical Report
+The technical paper provides an in-depth analysis of the project, detailing data preprocessing, exploratory data analysis (EDA), model selection, and performance evaluation. 
 
-#### 💻 Codebase
-Python scripts and Jupyter Notebooks for data preprocessing, modeling, and evaluations.
-Open in Colab: 
+Key insights include:
 
-#### 📊 Tableau Dashboard
-An interactive dashboard showcasing real-time and historical trends.
-Access it here: Smart House Dashboard
+- Data sources: EcoLab Ground and WeatherLink Indoor sensors.
 
-## 🎯 Project Goals
-### 🌟 This project focuses on:
-* Building a custom CNN for classification and anomaly detection.
-* Implementing an LSTM for forecasting trends in temperature, air quality, and energy usage.
-* Establishing a baseline with ARIMA for univariate time series prediction.
-* Experiment with advanced techniques like the Temporal Fusion Transformer (TFT) for multivariate analysis.
-* Visualizing actionable insights through an interactive Tableau Dashboard.
-  
-## 📊 Dataset Overview
-### 📂 Smart House Data Pack
-Source: IoT sensors from smart homes.
-* Features: Temperature, humidity, air quality (PM2.5), energy usage, and solar radiation.
-* Observations: Multivariate time series covering diverse conditions.
-* Challenges Addressed: Handling noisy data and missing values.
-* Forecasting non-linear trends across variables.
-  
-🔗 Dataset Access: Smart House Data Pack (Replace with the actual link)
+- Data preprocessing: Outlier removal, missing value handling, feature engineering.
 
-## 🛠️ How to Use
-1️⃣ Clone the repository
-git clone https://github.com/oxayavongsa/aai-530-iot-smart-house.git
-2️⃣ Install required dependencies
-pip install -r requirements.txt
-3️⃣ Run the pipeline
-Open and execute EDA.ipynb or main_notebook.ipynb in Jupyter or Google Colab.
-4️⃣ Explore the Dashboard
-Visualize insights using the provided Tableau link.
+Modeling results:
 
-## 📋 Results and Key Insights
-![image](https://github.com/user-attachments/assets/ae7bfdbf-df4f-47c0-bb97-e60356cf015c)
+- LSTM achieved a Root Mean Squared Error (RMSE) of 0.81°C.
 
-Key Findings:
-CNN excels at detecting anomalies in air quality and classifying environmental conditions.
-LSTM outperformed ARIMA in capturing non-linear dependencies over time.
-Advanced preprocessing like normalization and handling missing values boosted model accuracy.
-## 📈 Dashboard
-Access the interactive Tableau Dashboard here:
-Smart House Dashboard
+- CNN classified indoor conditions with 94% accuracy but struggled with rare classes.
 
-## 📅 Task List - Team Members
-🧑‍💼 Outhai Xayavongsa (Ms. Thai) (Team Leader)
-* 
-* 
-* 
+- SARIMAX performed well for short-term forecasts but declined in long-term accuracy.
 
-💻 Aaron Ramirez (Tech Lead)
-* 
-* 
-* 
+## Dashboard
 
-## ✨ Future Enhancements
-Integrate real-time IoT data streams for live forecasting.
-Explore hybrid models like LSTM-CNN for combined spatial and temporal analysis.
-Expand preprocessing to handle edge cases like extreme weather conditions.
+The interactive dashboard visualizes key findings, including:
 
-## 📫 Contact
-Feel free to reach out for collaborations or questions!
+- Time-series analysis of temperature trends from June to November 2023.
 
-Outhai Xayavongsa (Ms. Thai): Profile
-Aaron Ramirez: Profile
+- Comparison of predicted vs. actual temperatures using LSTM and SARIMAX.
 
-## License Information
+- eCO₂ levels and classification results for different environmental conditions.
 
-This project uses datasets from the [Smart House Data Pack](https://www.kaggle.com/datasets/ssiatuos/smart-house-data-pack), which are licensed under the **Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**. 
+## Codebase
 
-Under this license:
-- You are free to share and adapt the datasets as long as you provide proper attribution.
-- Use of the datasets is restricted to non-commercial purposes.
-- Full details of the license can be found [here](https://creativecommons.org/licenses/by-nc/4.0/).
+The code repository consists of Python scripts and Jupyter Notebooks for:
 
-The software in this repository is distributed under the **Apache License 2.0**, which permits commercial use, distribution, modification, and private use, as described in the [LICENSE](LICENSE) file.
+- Data preprocessing: Cleaning and feature engineering.
+
+- Modeling: Implementation of LSTM, CNN, and SARIMAX models.
+
+- Evaluation: Performance metrics and comparative analysis.
+
+- Visualization: Graphs and plots illustrating trends and predictions.
+
+## Git Ignore & License
+
+- .gitignore specifies ignored files, ensuring version control efficiency.
+
+*LICENSE outlines usage rights, adhering to Apache License 2.0 for software and Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) for dataset use.*
+
+## How to Use
+
+1. Clone the repository:
+
+	```git clone https://github.com/oxayavongsa/aai-530-iot-smart-house.git
+
+2. Install dependencies:
+
+	```pip install -r requirements.txt
+
+3. Run the Jupyter Notebook:
+
+- Open and execute Final_Code_G3.ipynb in Jupyter or Google Colab.
+
+4. Explore results:
+
+- View predictions and insights in the provided dashboard.
+
+## Key Findings
+
+- LSTM outperformed traditional time-series models in capturing temperature variations.
+
+- CNN effectively classified environmental conditions but required better handling of imbalanced classes.
+
+- SARIMAX provided interpretability but struggled with long-term forecasting.
+
+- Data preprocessing, including smoothing and interpolation, significantly improved model performance.
+
+## Future Enhancements
+
+- Incorporate real-time IoT data streams for live monitoring.
+
+- Explore hybrid models combining CNN and LSTM for enhanced spatial and temporal analysis.
+
+- Improve handling of rare conditions through class balancing techniques.
+
+## Contributors
+
+- Outhai Xayavongsa (Ms. Thai) - Team Leader
+
+- Aaron Ramirez - Tech Lead
+
+## License
+
+The software is licensed under Apache License 2.0.
+
+The dataset follows the Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) license.
