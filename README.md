@@ -24,7 +24,18 @@ Modeling results:
 
 - SARIMAX performed well for short-term forecasts but declined in long-term accuracy.
 
-## Dashboard
+## Dashboard 
+<div class='tableauPlaceholder' id='viz1739947775986' style='position: relative'><noscript><a href='#'><img alt=' ' src='https://public.tableau.com/static/images/Fi/FinalPredictions/IoTSmartHomeDashboard/1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='FinalPredictions/IoTSmartHomeDashboard' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='static_image' value='https://public.tableau.com/static/images/Fi/FinalPredictions/IoTSmartHomeDashboard/1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>
+<script type='text/javascript'>
+    var divElement = document.getElementById('viz1739947775986');
+    var vizElement = divElement.getElementsByTagName('object')[0];
+    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} 
+    else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} 
+    else { vizElement.style.width='100%';vizElement.style.minHeight='1650px';vizElement.style.maxHeight=(divElement.offsetWidth*1.77)+'px';} 
+    var scriptElement = document.createElement('script');
+    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+</script>
 
 The interactive dashboard visualizes key findings, including:
 
@@ -73,7 +84,6 @@ The code repository consists of Python scripts and Jupyter Notebooks for:
 ## Key Findings
 
 - LSTM outperformed traditional time-series models in capturing temperature variations.
-  ![LSTM Model Predictions vs. Actual Indoor Temperture (°F)]([path_to_image.png](https://public.tableau.com/app/profile/outhai.xayavongsa/viz/FinalPredictions/IoTSmartHomeDashboard))
   ![image](https://github.com/user-attachments/assets/3f4cf25d-9fba-4846-a1cc-cdd1cac0dc8d)
 
 - CNN effectively classified environmental conditions but required better handling of imbalanced classes.
