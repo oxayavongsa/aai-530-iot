@@ -1,4 +1,4 @@
-## Smart Home Energy Predictions: IoT and Machine Learning
+# Smart Home Energy Predictions: IoT and Machine Learning
 ### AAI-530 IoT and Machine Learning Final Project
 University of San Diego, School of Engineering - Masters of Applied Artificial Intelligence
 
